@@ -184,7 +184,7 @@ nav {
 }
 .pillar-box-header {
   color: rgba(14, 14, 14, 0.8);
-  font-family: "Fira Sans";
+  font-family: "Open Sans", "Fira Sans";
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -364,7 +364,7 @@ nav {
 }
 .news-header {
   color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
+  font-family: "Open Sans", "Fira Sans";
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
@@ -373,14 +373,14 @@ nav {
 }
 .news-date {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
+  font-family: "Open Sans", "Fira Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
 .news-time {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
+  font-family: "Open Sans", "Fira Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -401,7 +401,7 @@ nav {
 }
 .news-pera {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
+  font-family: "Open Sans", "Fira Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -411,7 +411,7 @@ nav {
 }
 .news-btn {
   color: rgb(255, 255, 255);
-  font-family: "Fira Sans";
+  font-family: "Open Sans", "Fira Sans";
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -431,4 +431,151 @@ nav {
 }
 .news-container-info-2 {
   padding-left: 20px;
+}
+.donation-header {
+  text-align: center;
+}
+.donation {
+  /* width: 90%; */
+}
+.donation-para {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 80%;
+  margin-left: 10%;
+}
+.donation-box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-left: 12.5%;
+}
+.donation-box {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  font-family: Fira-sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.donation-box-colored {
+  background: rgb(198, 228, 214);
+}
+.donation-amount-container {
+  background: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+.donation-amount {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px;
+}
+.donate-btn {
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgb(0, 106, 80);
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+}
+.donate-btn-container {
+  text-align: center;
+}
+.last-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 31px;
+  margin-bottom: 78px;
+}
+.newsletter-paragraph {
+  width: 580px;
+  height: 44px;
+  margin-left: 220px;
+}
+.last-search {
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  width: 580px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.search-button-container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding-left: 40;
+}
+form button {
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  width: 142px;
+  background: rgb(0, 106, 80);
+}
+.newsletter-end-paragraph {
+  margin-left: 0px;
+  text-align: center;
+}
+.newsletter {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  height: 350px;
+}
+.newsletter-container {
+  padding: 50px 80px 50px 80px;
+  margin-top: 20px;
+}
+.submit-button {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
+}
+.section-header-newsletter {
+  text-align: center;
+}
+.footer-header {
+  text-align: center;
+  color: rgb(14, 14, 14);
+  font-family: "Open Sans", "Fira Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+.line-css {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  width: 85%;
+}
+.style-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 23px;
 }
