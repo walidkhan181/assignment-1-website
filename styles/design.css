@@ -253,7 +253,7 @@ nav {
 }
 .vision-box-paragraph {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
+  font-family: "Open Sans", "Fira Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -549,7 +549,7 @@ form button {
 }
 .submit-button {
   color: rgb(255, 255, 255);
-  font-family: Fira Sans;
+  font-family: "Open Sans", "Fira Sans";
   font-size: 14px;
   font-weight: 600;
   line-height: 18px;
